@@ -1,6 +1,8 @@
 # esp-idf-vscode-boilerplate
 Boilerplate for developing ESP32 projects using ESP-IDF and VS Code
 
+  > Note: You need to have installed [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension in your VS Code.
+
 # How to use
 
 First clone repository
