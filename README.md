@@ -31,3 +31,7 @@ make flash
 ```
 
 Done.
+
+## Demo
+
+[![Esp IDF VS Code Boilerplate](https://img.youtube.com/vi/JAvOcawsvIE/mqdefault.jpg)](https://www.youtube.com/watch?v=JAvOcawsvIE)
