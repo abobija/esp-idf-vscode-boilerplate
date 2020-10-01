@@ -4,14 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/build",
                 "${env:IDF_PATH}/components/**"
             ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "compilerPath": "xtensa-esp32-elf-gcc"
         },
         {
             "name": "Win32",
@@ -19,11 +14,7 @@
                 "${workspaceFolder}/**",
                 "${env:IDF_PATH}/components/**"
             ],
-            "compilerPath": "xtensa-esp32-elf-gcc.exe",
-            "defines": [],
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "compilerPath": "xtensa-esp32-elf-gcc"
         }
     ],
     "version": 4
