@@ -8,42 +8,30 @@ Boilerplate for developing ESP32 projects using ESP-IDF and VS Code
 # How to use
 
 1. Clone repository
-
 ```
 git clone https://github.com/abobija/esp-idf-vscode-boilerplate.git my-project
 ```
 
 2. Go inside of project folder
-
 ```
 cd my-project
 ```
 
-3. Set target to ESP32
+3. Start VSC
+```
+code .
+```
+
+## Config, Build and Flash
 
 ```
 idf.py set-target esp32
-```
-
-4. Config
-
-```
 idf.py menuconfig
-```
-
-5. Build
-
-```
 idf.py build
-```
-
-6. Flash
-
-```
 idf.py -p (PORT) flash
 ```
 
-## Demo
+# Demo
 
 ### This demo is deprecated. New one will be published, soon.
 
