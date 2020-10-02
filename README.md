@@ -33,6 +33,4 @@ idf.py -p (PORT) flash
 
 # Demo
 
-### This demo is deprecated. New one will be published, soon.
-
-[![Esp IDF VS Code Boilerplate](https://img.youtube.com/vi/JAvOcawsvIE/mqdefault.jpg)](https://www.youtube.com/watch?v=JAvOcawsvIE)
+[![Get started with ESP32 in VS CODE ... ESP-IDF](https://img.youtube.com/vi/aQi8qiW9fmg/mqdefault.jpg)](https://www.youtube.com/watch?v=aQi8qiW9fmg)
