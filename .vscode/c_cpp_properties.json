@@ -1,25 +1,48 @@
 {
+    "env": {
+        "defaultIncludePath": [
+            "${env:IDF_PATH}/components/**",
+            "${workspaceFolder}/main/**",
+            "${workspaceFolder}/components/**",
+            "${workspaceFolder}/build/config/*",
+            "${env:IDF_PATH}/examples/common_components/protocol_examples_common/**"
+        ],
+        "defaultBrowsePath": [
+            "${env:IDF_PATH}/components",
+            "${workspaceFolder}/main",
+            "${workspaceFolder}/components",
+            "${workspaceFolder}/build/config",
+            "${env:IDF_PATH}/examples/common_components/protocol_examples_common"
+        ]
+    },
     "configurations": [
         {
-            "name": "Linux",
+            "name": "ESP32",
             "includePath": [
-                "${env:IDF_PATH}/components/**",
-                "${workspaceFolder}/main/**",
-                "${workspaceFolder}/components/**",
-                "${workspaceFolder}/build/config/*",
-                "${env:IDF_PATH}/examples/common_components/protocol_examples_common/**"
+                "${defaultIncludePath}"
             ],
             "browse": {
                 "path": [
-                    "${env:IDF_PATH}/components",
-                    "${workspaceFolder}/main",
-                    "${workspaceFolder}/components",
-                    "${workspaceFolder}/build/config",
-                    "${env:IDF_PATH}/examples/common_components/protocol_examples_common"
+                    "${defaultBrowsePath}"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             },
             "compilerPath": "xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "ESP8266",
+            "includePath": [
+                "${defaultIncludePath}"
+            ],
+            "browse": {
+                "path": [
+                    "${defaultBrowsePath}"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "compilerPath": "xtensa-lx106-elf-gcc",
             "cStandard": "c11",
             "cppStandard": "c++17"
         }
