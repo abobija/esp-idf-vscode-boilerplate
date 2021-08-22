@@ -29,7 +29,8 @@
             },
             "compilerPath": "xtensa-esp32-elf-gcc",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         },
         {
             "name": "ESP8266",
@@ -44,7 +45,8 @@
             },
             "compilerPath": "xtensa-lx106-elf-gcc",
             "cStandard": "c11",
-            "cppStandard": "c++11"
+            "cppStandard": "c++11",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4
